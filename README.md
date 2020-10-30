@@ -12,21 +12,19 @@
 
 • Pré-requisitos:
   * Desenvolver os recursos utilizando o framework Laravel para back-end;
-  * Desenvolver os recursos utilizando o React para front-end;
+  * Desenvolver os recursos utilizando o ReactNative para front-end;
   * Utilizar banco de dados Mysql ou Postgres;
 
 • O que esperamos como escopo mínimo da API de back-end:
   * Implementar o cadastro de um evento (nome, data, categoria, descricao);
   * Implementar o cadastro de ingressos para este evento (nome, valor, setor);
-  * Todas as requsições devidamente utilizando método de autenticação na comunicação;
+  * Todas as requsições à API devem ser devidamente autenticadas;
+  
+obs.: A manipulação desses endpoints do CRUD serão por meio de cliente REST. 
   
 • O que esperamos como escopo mínimo do APP:
-  * Implementar a listagem dos eventos;
-  * Implementar visualização dos ingressos dentro da página do evento;
-
-• Diferencial:
-  * Implementar ambiente web com autenticação de cliente no sistema para que, após feito o login, ele possa conferir uma galeria de imagens com alguns eventos que já foram realizados na Arena das Dunas em Natal;
-  * Implementar a autenticação de usuários no app
+  * Listagem dos eventos;
+  * Visualização dos ingressos dentro da página do evento;
  
 • O que vamos avaliar:
   * Seu código;
