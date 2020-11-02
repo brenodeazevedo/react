@@ -118,7 +118,7 @@ Response:
 Field   | Type  | Description
 ------- | ------|---------
 name | String | Required
-date | Date | Required 
+date | DateTime | Required 
 category | String | Required
 description | String | Required
  
@@ -151,7 +151,7 @@ Response:
 Field   | Type  | Description
 ------- | ------|---------
 name | String | Required
-value | String | Required 
+value | Numeric | Required 
 sector | String | Required 
 event_id | Numeric | Required 
  
