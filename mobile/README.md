@@ -37,3 +37,20 @@ http://localhost:19002/
 ```
 
 - Em seguida colocar o QRCode do Expo no Smartphone para testes
+
+### Alterando caminho da APIBackend
+- Caminho para alterar o serviço da api backend
+
+```sh 
+$ cd ../mobile/src/service
+
+```
+
+- Alterar arquivo api.js para o caminho desejado da aplicação backend
+
+Ex.:
+```sh 
+
+baseURL:'http://localhost:8000/api'
+
+```
