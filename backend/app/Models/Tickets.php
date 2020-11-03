@@ -19,6 +19,7 @@ class Tickets extends Model
      * @var array
      */
     protected $fillable = [
+        'event_id',
         'name',
         'price',
         'section',
@@ -32,4 +33,9 @@ class Tickets extends Model
     protected $casts = [
         'price' => 'double',
     ];
+
+    public function hasEvent()
+    {
+        return $this->hasOne('App\Models\Events');
+    }
 }

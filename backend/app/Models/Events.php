@@ -33,4 +33,9 @@ class Events extends Model
     protected $casts = [
         'date' => 'datetime',
     ];
+
+    public function hasTickets()
+    {
+        return $this->hasMany('App\Models\Tickets', 'event_id', 'id');
+    }
 }
